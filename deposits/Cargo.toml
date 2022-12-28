@@ -51,4 +51,4 @@ serde = { version = "1.0.144", features = ["derive"] }
 thiserror = "1.0.35"
 
 [dev-dependencies]
-cosmwasm-schema = "=1.0.0"
+cosmwasm-schema = "=1.1.1"
