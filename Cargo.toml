@@ -1,0 +1,26 @@
+[workspace]
+members = [
+    "deposits",
+    "token",
+    "integration",
+]
+
+[workspace.package]
+version = "1.2.3"
+authors = ["peeps"]
+description = "A short description of my package"
+documentation = "https://example.com/bar"
+
+[workspace.dependencies]
+cosmwasm-schema = "1.1.1"
+cosmwasm-std = "1.1.2"
+cw-storage-plus = "0.15.0"
+cw0 = "0.10"
+cw2 = "0.12"
+cw20 = "0.12"
+schemars = "0.8.10"
+thiserror = "1.0.35"
+serde = { version = "1.0.144", features = ["derive"] }
+
+deposits = { path = "./deposits" }
+token = { path = "./token" }
